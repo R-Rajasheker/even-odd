@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even or Odd Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="margin-top: 100px;">EVEN-OR-ODD</h1>
+        <div id="name">
+            <h3 style="font-family: Georgia, 'Times New Roman', Times, serif; color: red;">Player 1</h3>
+            <h3 style="font-family: Georgia, 'Times New Roman', Times, serif; color: red;">Player 2</h3>
+        </div>
+        <div id="main">
+            <div class="score" id="player1">
+                <div id="circle"></div>
+                <div id="circle"></div>
+                <div id="circle"></div>
+                <div id="circle"></div>
+                <div id="circle"></div>
+            </div>
+            <div class="center">
+                <div id="scores">
+                    <h2 id="p1s"> 0</h2>
+                    <h2>-</h2>
+                    <h2 id="p2s">0</h2>
+                </div>
+            </div>
+            <div class="score" id="player2">
+                <div id="circle"></div>
+                <div id="circle"></div>
+                <div id="circle"></div>
+                <div id="circle"></div>
+                <div id="circle"></div>
+            </div>
+        </div>
+        <h1 id="res">Wait for result!!!</h1>
+        <div id="btn">
+            <input type="submit" value="Check" onclick="playGame()">
+            <input type="submit" value="Reset" onclick="window.location.reload()">
+        </div>
+    </div>
+    <script src="design.js"></script>
+</body>
+</html>
